@@ -3,9 +3,8 @@ app = express();
 
 app.get('/', async (req, res) => {
     try {
-        const response = await fetch('https://api.sportmonks.com/v3/core/continents?api_token={{api_token}}&include=countries');
-        const data = await response.json();
-        res.send(data);
+        const response = 'hello';
+        res.send(response);
     } catch (error) {
         console.error(error);
     }
