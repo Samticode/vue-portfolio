@@ -1,5 +1,5 @@
 <template>
-  <main class="min-h-100dvh w-100dvw bg-white">
+  <main class="min-h-100dvh w-100dvw bg-white overflow-x-hidden">
     <Sidebar />
     <Main />
   </main>

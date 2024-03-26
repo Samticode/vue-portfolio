@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       spacing: (() => {
         let spacing = {}
-        for (let i = 1; i <= 100; i++) {
+        for (let i = 1; i <= 200; i++) {
           spacing[`${i}dvh`] = `${i}dvh`
           spacing[`${i}dvw`] = `${i}dvw`
         }
@@ -13,7 +13,8 @@ module.exports = {
       })(),
     },
     fontFamily: {
-      'helvetica': ['Helvetica', 'Arial', 'sans-serif']
+      'raleway': ['Raleway', 'sans-serif'],
+      'space-mono': ['Space Mono', 'monospace']
     },
   },
   variants: {

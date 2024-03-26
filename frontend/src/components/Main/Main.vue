@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-transparet w-85dvw min-h-1000dvh ml-15dvw">
+    <section class="bg-transparet w-85dvw min-h-100dvh ml-15dvw">
         <Leader />
     </section>
 </template>
