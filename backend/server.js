@@ -2,13 +2,7 @@ express = require('express');
 app = express();
 
 app.get('/', async (req, res) => {
-    try {
-        const response = 'hello';
-        res.send(response);
-    } catch (error) {
-        console.error(error);
-    }
-
+    res.send('Hello World!');
 });
 
 app.listen(3000, () => {
