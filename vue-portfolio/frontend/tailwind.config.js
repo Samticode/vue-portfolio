@@ -18,6 +18,9 @@ module.exports = {
         'raleway': ['Raleway', 'sans-serif'],
         'space-mono': ['Space Mono', 'monospace']
       },
+      fontSize: {
+        'bigXl': '17rem',
+      },
     },
   },
   variants: {
