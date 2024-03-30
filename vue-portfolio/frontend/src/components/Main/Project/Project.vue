@@ -1,8 +1,8 @@
 <template>
     <section class="w-full">
-        <h2 class="text-5xl font-raleway font-light text-right mr-2dvw mt-1dvw pb-2 border-b-2 border-neutral-300">Projects</h2>
+        <h2 class="text-5xl font-raleway font-light text-right mr-2dvw ml-3 mt-3dvw pb-2 border-b-2 border-neutral-300">Projects</h2>
 
-        <div class="w-full min-h-50dvh flex flex-wrap justify-center bg-lime-100">
+        <div class="max-w-full h-100dvh my-14 mx-14 grid grid-cols-6 grid-rows-5 gap-12">
             <ProjectComponent v-for="(project, index) in projects" :key="index" :project="project" />
         </div>
     </section>
@@ -20,63 +20,45 @@ export default {
       projects: [
         {
           id: 1,
-          title: 'Project 1',
-          description: 'This is a description of project 1',
-          image: 'https://via.placeholder.com/150'
+          gridPlacement: 'col-span-2 row-span-3',
+          title: 'Buekorps Portal',
+          date: 'Nov 2023',
+          image: 'https://cdn.oneesports.gg/cdn-data/2022/11/MW2_Ghost_Mask.webp'
         },
         {
           id: 2,
-          title: 'Project 2',
-          description: 'This is a description of project 2',
-          image: 'https://via.placeholder.com/150'
+          gridPlacement: 'col-span-2 row-span-2',
+          title: 'Chatbot',
+          date: 'April 2024',
+          image: 'https://media.wired.com/photos/6595c546f6145f9ca1309145/master/pass/_BC-wired_selmasabanovic_kaylareeferphoto-127.jpg'
         },
         {
           id: 3,
-          title: 'Project 3',
-          description: 'This is a description of project 3',
-          image: 'https://via.placeholder.com/150'
+          gridPlacement: 'col-span-2 row-span-3',
+          title: 'Chores App',
+          date: 'March 2024',
+          image: 'https://i.pinimg.com/736x/64/76/cf/6476cfa661578dff2575e42a66c72cdb.jpg'
         },
         {
           id: 4,
-          title: 'Project 4',
-          description: 'This is a description of project 4',
-          image: 'https://via.placeholder.com/150'
+          gridPlacement: 'col-span-2 row-span-4',
+          title: 'Storage',
+          date: 'Dec 2023',
+          image: 'https://3.imimg.com/data3/PU/HB/MY-7398697/library-bookshelf.jpg'
         },
         {
           id: 5,
-          title: 'Project 5',
-          description: 'This is a description of project 5',
-          image: 'https://via.placeholder.com/150'
+          gridPlacement: 'col-span-2 row-span-2',
+          title: 'Teen Company',
+          date: 'Dec 2023',
+          image: 'https://www.gqmiddleeast.com/2021/06/American-Psycho-Era.jpg'
         },
         {
           id: 6,
-          title: 'Project 6',
-          description: 'This is a description of project 6',
-          image: 'https://via.placeholder.com/150'
-        },
-        {
-          id: 7,
-          title: 'Project 7',
-          description: 'This is a description of project 7',
-          image: 'https://via.placeholder.com/150'
-        },
-        {
-          id: 8,
-          title: 'Project 8',
-          description: 'This is a description of project 8',
-          image: 'https://via.placeholder.com/150'
-        },
-        {
-          id: 9,
-          title: 'Project 9',
-          description: 'This is a description of project 9',
-          image: 'https://via.placeholder.com/150'
-        },
-        {
-          id: 10,
-          title: 'Project 10',
-          description: 'This is a description of project 10',
-          image: 'https://via.placeholder.com/150'
+          gridPlacement: 'col-span-2 row-span-2',
+          title: 'Valgomat',
+          date: 'Oct 2023',
+          image:'https://media.snl.no/media/49445/standard_stortinget1.jpg'
         }
       ]
     };
