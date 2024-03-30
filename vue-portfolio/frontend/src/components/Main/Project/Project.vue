@@ -1,8 +1,8 @@
 <template>
-    <section class="w-full">
-        <h2 class="text-5xl font-raleway font-light text-right mr-2dvw ml-3 mt-3dvw pb-2 border-b-2 border-neutral-300">Projects</h2>
+    <section class="w-83dvw mx-auto py-10 rounded-xl bg-white">
+        <h2 class="text-5xl font-raleway font-light text-right mr-2dvw ml-3 pb-2 border-b-2 border-neutral-300">Projects</h2>
 
-        <div class="max-w-full h-100dvh my-14 mx-14 grid grid-cols-6 grid-rows-5 gap-12">
+        <div class="max-w-full h-110dvh mt-14 mx-11 grid grid-cols-6 grid-rows-5 gap-10 gap-y-14">
             <ProjectComponent v-for="(project, index) in projects" :key="index" :project="project" />
         </div>
     </section>
@@ -41,7 +41,7 @@ export default {
         },
         {
           id: 4,
-          gridPlacement: 'col-span-2 row-span-4',
+          gridPlacement: 'col-span-2 row-span-3',
           title: 'Storage',
           date: 'Dec 2023',
           image: 'https://3.imimg.com/data3/PU/HB/MY-7398697/library-bookshelf.jpg'

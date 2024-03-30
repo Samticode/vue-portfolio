@@ -6,9 +6,9 @@
       </div>
         
       <div class="w-full h-1/6 flex justify-between items-center px-6">
-          <h1 class="text-2xl 3xl:text-3xl">{{ project.title }}</h1>
-          <p>-</p>
-          <p class="text-2xl 3xl:text-3xl">{{ project.date }}</p>
+          <h1 class="font-raleway text-2xl 3xl:text-3xl">{{ project.title }}</h1>
+          <p class="font-light text-4xl">-</p>
+          <p class="font-raleway text-2xl 3xl:text-3xl">{{ project.date }}</p>
       </div>
 
     </div>
