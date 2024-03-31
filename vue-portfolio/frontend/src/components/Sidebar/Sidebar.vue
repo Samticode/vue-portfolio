@@ -5,7 +5,7 @@
             <div class="w-full 3xl:h-91dvh h-88dvh border-b-2 border-neutral-200">
                 <div class="flex flex-col gap-5 mx-8 pt-10 pb-4 border-b-2 border-neutral-200">
                     <a href="/" class="font-raleway font-medium 3xl:text-4xl text-3xl">Home</a>
-                    <a href="" class="font-raleway font-medium 3xl:text-4xl text-3xl">CV</a>
+                    <a href="https://github.com/Samticode/vue-portfolio" target="_blank" class="font-raleway font-medium 3xl:text-4xl text-3xl">CV</a>
                 </div>
 
                 <div class="mx-8 py-4 border-b-2 border-neutral-200">
@@ -16,7 +16,7 @@
             </div>
 
             <div class="3xl:h-20 3xl:w-40 h-16 w-32 grid place-items-center rounded-lg absolute bottom-4 right-5 bg-neutral-200">
-                <h1 class="3xl:text-6xl text-5xl">ﺻَﻤﺖ</h1>
+                <h1 class="3xl:text-6xl text-5xl"><a href="/">ﺻَﻤﺖ</a></h1>
             </div>
         </div>
     </section>

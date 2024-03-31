@@ -23,7 +23,7 @@ export default {
           gridPlacement: 'col-span-2 row-span-3',
           title: 'Buekorps Portal',
           date: 'Nov 2023',
-          image: 'https://cdn.oneesports.gg/cdn-data/2022/11/MW2_Ghost_Mask.webp'
+          image: 'https://media.snl.no/media/14879/standard_buekorpsenesdag__003.jpg'
         },
         {
           id: 2,
@@ -51,7 +51,7 @@ export default {
           gridPlacement: 'col-span-2 row-span-2',
           title: 'Teen Company',
           date: 'Dec 2023',
-          image: 'https://www.gqmiddleeast.com/2021/06/American-Psycho-Era.jpg'
+          image: 'https://www.dengodenaboub.no/img/dgnLogo.png'
         },
         {
           id: 6,

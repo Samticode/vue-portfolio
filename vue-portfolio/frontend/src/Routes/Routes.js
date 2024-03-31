@@ -1,10 +1,14 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import App from '../App.vue'
+import Alpha from '../components/Alpha/Alpha.vue';
 import Failure from '../components/Failure/Failure.vue';
 
 const routes = [
-    { path: '/', component: App},
-    { path: '/:catchAll(.*)', component: Failure },
+    { path: '/', 
+    name: 'Alpha',
+    component: Alpha },
+    { path: '/:catchAll(.*)', 
+    name: 'Failure',
+    component: Failure },
 ];
 
 const router = createRouter({
