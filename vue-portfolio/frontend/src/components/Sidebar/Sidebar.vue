@@ -8,19 +8,28 @@
                     <a href="" class="font-raleway font-medium 3xl:text-4xl text-3xl">CV</a>
                 </div>
 
-                <div>
-                    
+                <div class="mx-8 py-4 border-b-2 border-neutral-200">
+                    <p class="font-raleway font-light 3xl:text-2xl text-xl hover:cursor-pointer" @click="scrollTo(0)">About</p>
+                    <p class="font-raleway font-light 3xl:text-2xl text-xl hover:cursor-pointer" @click="scrollTo(56)">Projects</p>
+                    <p class="font-raleway font-light 3xl:text-2xl text-xl hover:cursor-pointer" @click="scrollTo(100)">Contact</p>
                 </div>
-
             </div>
 
-            <div class="h-20 w-40 grid place-items-center rounded-lg absolute bottom-4 right-5 bg-neutral-200">
-                <h1 class="text-6xl">ﺻَﻤﺖ</h1>
+            <div class="3xl:h-20 3xl:w-40 h-16 w-32 grid place-items-center rounded-lg absolute bottom-4 right-5 bg-neutral-200">
+                <h1 class="3xl:text-6xl text-5xl">ﺻَﻤﺖ</h1>
             </div>
         </div>
     </section>
 </template>
 
 <script>
-
+export default {
+  methods: {
+    scrollTo(percentage) {
+      const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scrollTarget = height * (percentage / 100);
+      window.scrollTo({ top: scrollTarget, behavior: 'smooth' });
+    }
+  }
+};
 </script>

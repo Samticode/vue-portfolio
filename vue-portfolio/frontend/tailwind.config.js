@@ -13,6 +13,7 @@ module.exports = {
       })(),
       screens: {
         '3xl': '1800px',
+        'pSm': {'max': '500px'}, // add this line
       },
       fontFamily: {
         'raleway': ['Raleway', 'sans-serif'],

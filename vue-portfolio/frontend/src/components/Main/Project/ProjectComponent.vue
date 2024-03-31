@@ -1,7 +1,7 @@
 <template>
-    <div class="w-full h-full flex flex-col items-center" :class="project.gridPlacement">
+    <div class="w-full h-full flex flex-col items-centerr" :class="project.gridPlacement">
 
-      <div class="w-full h-5/6 border-2 rounded-t-3xl border-neutral-200 hover:shadow-xl bg-neutral-100 grid place-items-center">
+      <div class="w-full h-5/6 border-2 rounded-t-3xl border-neutral-200 hover:shadow-xl hover:cursor-pointer bg-neutral-100 grid place-items-center">
         <img :src="project.image" alt="project image" class="3xl:w-9/12 w-10/12 rounded-lg">
       </div>
         
