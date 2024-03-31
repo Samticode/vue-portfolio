@@ -1,8 +1,8 @@
 <template>
     <section class="w-83dvw mx-auto py-10 rounded-xl bg-white">
-        <h2 class="text-5xl font-raleway font-light text-right mr-2dvw ml-3 pb-2 border-b-2 border-neutral-300">Projects</h2>
+        <h2 class="text-5xl font-raleway font-light text-right mr-2dvw ml-3 pb-2 border-b-2 border-neutral-200">Projects</h2>
 
-        <div class="max-w-full h-110dvh mt-14 mx-11 grid grid-cols-6 grid-rows-5 gap-10 gap-y-14">
+        <div class="max-w-full h-115dvh mt-14 mx-11 grid grid-cols-6 grid-rows-5 gap-12 gap-y-20">
             <ProjectComponent v-for="(project, index) in projects" :key="index" :project="project" />
         </div>
     </section>
