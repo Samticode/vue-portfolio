@@ -10,12 +10,6 @@ const routes = [
         props: true
     },
     { 
-        path: '/projectinfo/:id',
-        name: 'Projectinfo',
-        component: Projectinfo,
-        props: true
-    },
-    { 
         path: '/:catchAll(.*)',
         component: Failure,
         name: 'Failure',

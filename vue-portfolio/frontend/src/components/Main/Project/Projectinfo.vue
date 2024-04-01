@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-stone-900 h-100dvh max-w-100dvw p-5 pSm:hidden">
+    <div class="fixed z-50 inset-0 bg-stone-900 h-100dvh max-w-100dvw p-5 pSm:hidden">
         <div class="size-full bg-white p-5 rounded-lg grid grid-cols-12 grid-rows-12 gap-2">
 
         </div>
