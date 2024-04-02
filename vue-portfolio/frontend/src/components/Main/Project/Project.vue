@@ -58,7 +58,7 @@ export default {
           date: 'Dec 2023',
           image: 'https://3.imimg.com/data3/PU/HB/MY-7398697/library-bookshelf.jpg',
 
-          extraStyle: 'row-start-2',
+
           languages: ['https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-256.png', 'https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-256.png', 'https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/187_Js_logo_logos-256.png', 'https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/233_Node_Js_logo-256.png', 'https://cdn1.iconfinder.com/data/icons/hawcons/32/699166-icon-89-document-file-sql-512.png'],
           description: "This was also at the time at my past internship. They wanted a local storage system to store information about their PC's. This was pretty simple, made with HTML, CSS, JavaScript, Node.js and mySql, and another version with sqLite. The system could add, delete and update information about the PC's, with a GUI for the user."
         },
@@ -70,7 +70,7 @@ export default {
           image: 'https://www.dengodenaboub.no/img/dgnLogo.png',
 
           extraStyle: 'row-start-2',
-          languages: ['https://cdn0.iconfinder.com/data/icons/logos-brands-in-colors/128/react_color-256.png', 'https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-256.png', 'https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-256.png', 'https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/187_Js_logo_logos-256.png'],
+          languages: [ 'https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/187_Js_logo_logos-256.png', 'https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-256.png', 'https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-256.png', 'https://cdn0.iconfinder.com/data/icons/logos-brands-in-colors/128/react_color-256.png'],
           description: 'This is a project from one of my school mates who needed a website for their teen company (ungdomsbedrift). The version which is live is made with  HTML, CSS and JS, but i recreated it with React to get some practice with a framework.'
         },
         {
