@@ -19,7 +19,7 @@
   import Main from '../Main/Main.vue'
   import Loading from '../Loading/Loading.vue'
 
-  const isLoading = ref(false);
+  const isLoading = ref(true);
 
   onMounted(() => {
     setTimeout(() => {

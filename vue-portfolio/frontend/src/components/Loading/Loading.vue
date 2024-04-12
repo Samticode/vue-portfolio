@@ -38,6 +38,7 @@
     .customting {
         position: relative;
         animation: swoop 750ms;
+        animation-fill-mode: forwards;
         bottom: -100%;
     }
 
@@ -48,11 +49,15 @@
     @keyframes swoop {
         0% {
             bottom: -100%;
+            opacity: 0;
 
+        }
+        90% {
+            opacity: 1;
         }
         100% {
             bottom: 0;
-
+            opacity: 0.9;
         }
     }
     @keyframes flowout {
