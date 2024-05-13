@@ -7,6 +7,7 @@
     </div>
   </main>
 
+  
   <div class="h-100dvh max-w-100dvw bg-stone-900 hidden pSm:grid place-items-center">
     <h1 class="text-7xl font-space-mono text-white">Sorry..</h1>
   </div>
